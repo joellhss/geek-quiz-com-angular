@@ -1,0 +1,28 @@
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+
+}
+
+.btn-option {
+  background-color: #1C9427;
+  width: 100%;
+  padding: 15px 0;
+
+  border-radius: 10px;
+  cursor: pointer;
+
+  font-size: 18px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.241);
+
+}
+
+.btn-option:hover {
+  background-color: #14671c;
+}
+
+.btn-option:active {
+  scale: .96;
+}

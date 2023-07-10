@@ -1,0 +1,17 @@
+.quizz__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  width: 100%;
+}
+
+.quizz__container h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+app-question, app-option, app-result {
+  width: 100%;
+}

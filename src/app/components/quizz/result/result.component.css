@@ -1,0 +1,22 @@
+.result__container {
+  background-color: #170C33;
+  height: 300px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.result__container h3 {
+  font-size: 28px;
+  color: #1C9427;
+
+  text-shadow: 0 1px 1px #313131;
+}
+
+.result__container p {
+  font-size: 24px;
+}

@@ -1,0 +1,15 @@
+.question__container {
+  background-color: #6336E0;
+  width: 100%;
+  height: 160px;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question__container h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
