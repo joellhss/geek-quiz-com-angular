@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { QuizService } from 'src/app/services/quiz.service';
 
 @Component({
   selector: 'app-option',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./option.component.css']
 })
 export class OptionComponent {
+  @Input()
+  options: any = []
+
+  constructor(private service:QuizService){}
+
+  playerChoose(value: string) {
+    this.service.nextQuestion(value)
+  }
+
 
 }

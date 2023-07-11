@@ -1,6 +1,6 @@
 <div class="quizz__container">
   <h3>{{title}}</h3>
-  <app-question></app-question>
-  <app-option></app-option>
-  <app-result></app-result>
+  <app-question [question]="questionSelected" *ngIf="!finished"></app-question>
+  <app-option [options]="options" *ngIf="!finished"></app-option>
+  <app-result [result]="result" *ngIf="finished"></app-result>
 </div>
